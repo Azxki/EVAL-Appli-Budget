@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: Arial, sans-serif;
+}
+
+span {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+button {
+    margin-top: 1rem;
+    width: 80%;
+    margin-left: 10%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+input {
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border-radius: 2px;
+}
+
+.all {
+    display: flex;
+    width: 100%;
+}
+
+#expenditure {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+#recipes {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+#savings {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+#total {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}

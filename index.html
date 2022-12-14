@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/c44fc71240.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVAL-Budget</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main>
+    <div class="all">
+        <div id="expenditure">
+            <h1>Les dépenses fixes :</h1>
+            <label for="loyer"></label>
+            <input type="text" name="expenditures" id="loyer" class="depense" placeholder="Loyer et charges...">
+
+            <label for="eau"></label>
+            <input type="text" name="expenditures" id="eau" class="depense" placeholder="Eau / Electricité / Gaz...">
+
+            <label for="phone"></label>
+            <input type="text" name="expenditures" id="phone" class="depense" placeholder="Téléphone / Internet...">
+
+            <label for="assu_h"></label>
+            <input type="text" name="expenditures" id="assu_h" class="depense" placeholder="Assurance habitation...">
+
+            <label for="assu_v"></label>
+            <input type="text" name="expenditures" id="assu_v" class="depense" placeholder="Assurance véhicule(s)...">
+
+            <label for="mutuelle"></label>
+            <input type="text" name="expenditures" id="mutuelle" class="depense" placeholder="Mutuelle santé...">
+
+            <label for="credits"></label>
+            <input type="text" name="expenditures" id="credits" class="depense" placeholder="Remboursement de crédits...">
+
+            <label for="garde"></label>
+            <input type="text" name="expenditures" id="garde" class="depense" placeholder="Frais de garde...">
+
+            <label for="impot_r"></label>
+            <input type="text" name="expenditures" id="impot_r" class="depense" placeholder="Impôts sur le revenu...">
+
+            <label for="impot_l"></label>
+            <input type="text" name="expenditures" id="impot_l" class="depense" placeholder="Impôts locaux...">
+
+            <h1>Les dépenses courantes :</h1>
+            <label for="courses"></label>
+            <input type="text" name="expenditures" id="courses" class="depense" placeholder="Courses...">
+
+            <label for="transport"></label>
+            <input type="text" name="expenditures" id="transport" class="depense" placeholder="Transport...">
+
+            <label for="activities"></label>
+            <input type="text" name="expenditures" id="activities" class="depense" placeholder="Activitée(s) sportive & culturelles...">
+
+            <h1>Les dépenses occasionnelles :</h1>
+            <label for="sortie"></label>
+            <input type="text" name="expenditures" id="sortie" class="depense" placeholder="Sortie...">
+
+            <label for="other"></label>
+            <input type="text" name="expenditures" id="other" class="depense" placeholder="Autres...">
+            <button type="submit" id="but1">Ajouter</button>
+        </div>
+        <div id="recipes">
+            <h1>Rentrée d'argent :</h1>
+            <label for="salaire"></label>
+            <input type="text" name="expenditures" id="salaire" placeholder="Salaire...">
+
+            <label for="help"></label>
+            <input type="text" name="expenditures" id="help" placeholder="Aides...">
+
+            <label for="rentes"></label>
+            <input type="text" name="expenditures" id="rentes" placeholder="Rentes...">
+
+            <label for="other2"></label>
+            <input type="text" name="expenditures" id="other2" placeholder="Autres...">
+            <button type="submit" id="but2">Ajouter</button>
+        </div>
+        <div id="savings">
+            <h1>Epargne :</h1>
+            <label for="savings2"></label>
+            <input type="text" name="expenditures" id="savings2" placeholder="Epargne...">
+        </div>
+        <div id="total">
+            <h1>Total :</h1>
+            <span id="total2"></span>
+            <button type="submit" id="but3">Fini</button>
+            <button type="submit" id="but">Reset</button>
+        </div>
+    </div>
+</main>
+<footer>
+
+</footer>
+</body>
+</html>
+<script src="export.js"></script>
+<script type="module" src="app.js"></script>
