@@ -21,6 +21,7 @@ let help = document.getElementById('help');
 let rentes = document.getElementById('rentes');
 let other2 = document.getElementById('other2');
 let savings = document.getElementById('savings2');
+
 /*
     ID BUTTONS
  */
