@@ -1,15 +1,36 @@
-import {
-    but, home, water, phone, assuH, assuV, mutual, credits, duty, tax, taxL, shop, transport,
-    activities, trip, other, but2, salary, help, savings, other2, but3, rentes, but1
-} from './export.js';
-
+let home = document.getElementById('loyer');
+let water = document.getElementById('eau');
+let phone = document.getElementById('phone');
+let assuH = document.getElementById('assu_h');
+let assuV = document.getElementById('assu_v');
+let mutual = document.getElementById('mutuelle');
+let credits = document.getElementById('credits');
+let duty = document.getElementById('garde');
+let tax = document.getElementById('impot_r');
+let taxL = document.getElementById('impot_l');
+let shop = document.getElementById('courses');
+let transport = document.getElementById('transport');
+let activities = document.getElementById('activities');
+let trip = document.getElementById('sortie');
+let other = document.getElementById('other');
+let salary = document.getElementById('salaire');
+let help = document.getElementById('help');
+let rentes = document.getElementById('rentes');
+let other2 = document.getElementById('other2');
+let savings = document.getElementById('savings2');
 let total = document.getElementById('total2');
 let input = document.createElement('input');
 let expenditures = document.getElementById('expenditure');
+
+let but = document.getElementById('but');
+let but1 = document.getElementById('but1');
+let but2 = document.getElementById('but2');
+let but3 = document.getElementById('but3');
 let but4 = document.getElementById('but4');
-let input2 = document.createElement('input');
 let but5 = document.getElementById('but5');
 let but6 = document.getElementById('but6');
+
+let input2 = document.createElement('input');
 
 but3.addEventListener('click', () => {
     total.innerHTML = parseFloat(home.value) - parseFloat(water.value) - parseFloat(phone.value) -
