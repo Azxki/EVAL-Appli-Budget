@@ -47,17 +47,18 @@ Creating a function on a button click and adding the values with a ParseFloat,
 but3.addEventListener('click', () => {
     total.innerHTML = parseFloat(home.value) - parseFloat(water.value) - parseFloat(phone.value) -
         parseFloat(assuH.value) - parseFloat(assuV.value) - parseFloat(mutual.value) - parseFloat(credits.value) -
-        parseFloat(duty.value) - parseFloat(tax.value) - parseFloat(taxL.value) - parseFloat(shop.value) -
-        parseFloat(transport.value) - parseFloat(activities.value) - parseFloat(trip.value) - parseFloat(other.value) +
+        parseFloat(duty.value) - parseFloat(tax.value) - parseFloat(taxL.value) - parseFloat((shop.value) * 4) -
+        parseFloat((transport.value) * 4) - parseFloat((activities.value) / 12) -
+        parseFloat((trip.value) * 4) - parseFloat(other.value) +
         parseFloat(salary.value) + parseFloat(help.value) + parseFloat(other2.value) +
         parseFloat(rentes.value) + parseFloat(savings.value);
-/*
-Conditon :
-If innerHTML is positive do:
-If it is positive by more than 200€ do:
-If it is negative do :
-If it is negative by more than 200€ do:
- */
+    /*
+    Conditon :
+    If innerHTML is positive do:
+    If it is positive by more than 200€ do:
+    If it is negative do :
+    If it is negative by more than 200€ do:
+     */
     if (total.innerHTML > 0) {
         alert('BUDGET POSITIF, il vous reste ' + total.innerHTML + "€");
     }
@@ -83,8 +84,9 @@ Creating a function with a button click and adding values with a ParseFloat,
 but4.addEventListener('click', () => {
     total.innerHTML = parseFloat(home.value) - parseFloat(water.value) - parseFloat(phone.value) -
         parseFloat(assuH.value) - parseFloat(assuV.value) - parseFloat(mutual.value) - parseFloat(credits.value) -
-        parseFloat(duty.value) - parseFloat(tax.value) - parseFloat(taxL.value) - parseFloat(shop.value) -
-        parseFloat(transport.value) - parseFloat(activities.value) - parseFloat(trip.value) - parseFloat(other.value) +
+        parseFloat(duty.value) - parseFloat(tax.value) - parseFloat(taxL.value) - parseFloat((shop.value) * 4) -
+        parseFloat((transport.value) * 4) - parseFloat((activities.value) / 12) -
+        parseFloat((trip.value) * 4) - parseFloat(other.value) +
         parseFloat(salary.value) + parseFloat(help.value) + parseFloat(other2.value) +
         parseFloat(rentes.value) + parseFloat(savings.value) - parseFloat(input.value);
     /*
@@ -118,8 +120,9 @@ Creating a function with a button click and adding values with a ParseFloat,
 but5.addEventListener('click', () => {
     total.innerHTML = parseFloat(home.value) - parseFloat(water.value) - parseFloat(phone.value) -
         parseFloat(assuH.value) - parseFloat(assuV.value) - parseFloat(mutual.value) - parseFloat(credits.value) -
-        parseFloat(duty.value) - parseFloat(tax.value) - parseFloat(taxL.value) - parseFloat(shop.value) -
-        parseFloat(transport.value) - parseFloat(activities.value) - parseFloat(trip.value) - parseFloat(other.value) +
+        parseFloat(duty.value) - parseFloat(tax.value) - parseFloat(taxL.value) - parseFloat((shop.value) * 4) -
+        parseFloat((transport.value) * 4) - parseFloat((activities.value) / 12) -
+        parseFloat((trip.value) * 4) - parseFloat(other.value) +
         parseFloat(salary.value) + parseFloat(help.value) + parseFloat(other2.value) +
         parseFloat(rentes.value) + parseFloat(savings.value) + parseFloat(input2.value);
     /*
@@ -153,8 +156,9 @@ Creating a function with a button click and adding values with a ParseFloat,
 but6.addEventListener('click', () => {
     total.innerHTML = parseFloat(home.value) - parseFloat(water.value) - parseFloat(phone.value) -
         parseFloat(assuH.value) - parseFloat(assuV.value) - parseFloat(mutual.value) - parseFloat(credits.value) -
-        parseFloat(duty.value) - parseFloat(tax.value) - parseFloat(taxL.value) - parseFloat(shop.value) -
-        parseFloat(transport.value) - parseFloat(activities.value) - parseFloat(trip.value) - parseFloat(other.value) +
+        parseFloat(duty.value) - parseFloat(tax.value) - parseFloat(taxL.value) - parseFloat((shop.value) * 4) -
+        parseFloat((transport.value) * 4) - parseFloat((activities.value) / 12) -
+        parseFloat((trip.value) * 4) - parseFloat(other.value) +
         parseFloat(salary.value) + parseFloat(help.value) + parseFloat(other2.value) +
         parseFloat(rentes.value) + parseFloat(savings.value) - parseFloat(input.value) + parseFloat(input2.value);
     /*
